@@ -1,0 +1,76 @@
+body {
+	background-color: #FFF;
+	color: #111;
+}
+.modal {
+	overflow-y: hidden;
+}
+
+.bigbox {
+	margin: 3% 1% 3% 1%;
+	border: 3px dashed;
+}
+.title {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Lato;
+}
+.description {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Lato;
+	font-size: 20px;
+}
+h1 {
+	font-size: 60px;
+}
+
+.ikona {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #111;
+}
+
+
+#icon {
+	height: 0;
+}
+
+#wait {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.temp {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #111;
+	font-size: 6.25em;
+	font-style: bold;
+}
+
+.line {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 3px;
+	width: 100px;
+	background-color: #111;
+}
+
+#change {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #111;
+	color: #FFF;
+	margin-bottom: 5px;
+	font-size: 1em;
+	border-radius: 5px;
+	border: 0px;
+}

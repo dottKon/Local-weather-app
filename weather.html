@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Check the damn weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="ico.png">
+
+
+</head>
+<body>
+<div class="container">
+<div class="row">
+    <div class="col-md-1 col-lg-1"></div>
+        <div class="bigbox col-sm-12 col-md-10 col-lg-10">
+            <div class="title">
+                <h1>WHAT'S THE DAMN WEATHER?</h1>
+            </div>
+
+            <div class="line"></div>
+            
+            <div class="description">
+
+            <h2 id="city" style="font-size: 1.9em"></h2><h2 style="font-size: 2.7em" id="city2"></h2>
+            </div>
+            <div id="wait"><img src="loader.gif"></div>
+
+
+            <div class="ikona">
+            <h4 id="view"></h4>
+            <canvas id="icon"></canvas>
+            </div>
+            <div id="temperature" class="temp"></div>
+            <div class="col-md-4 col-lg-4"></div>
+
+            <!-- button to change the units -->
+                <div id="change" class="col-sm-12 col-md-4 col-lg-4"></div>
+
+            <div class="col-md-4 col-lg-4"></div>
+        </div>
+    <div class="col-md-1 col-lg-1"></div>
+</div>
+</div>
+<script src="https://darkskyapp.github.io/skycons/skycons.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>  
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
